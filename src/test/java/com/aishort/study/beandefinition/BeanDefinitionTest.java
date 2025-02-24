@@ -1,4 +1,4 @@
-package com.aishort.study.beanfind;
+package com.aishort.study.beandefinition;
 
 import com.aishort.study.AppConfig;
 import org.junit.jupiter.api.DisplayName;
