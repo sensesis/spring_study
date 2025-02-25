@@ -1,4 +1,4 @@
-package member;
+package com.aishort.study.member;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

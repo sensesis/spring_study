@@ -7,7 +7,7 @@ import org.springframework.context.annotation.FilterType;
 
 @Configuration
 @ComponentScan(
-        basePackages = {"com.aishort.study", "member"},
+        basePackages = {"com.aishort.study.member"},
         excludeFilters = @ComponentScan.Filter(
                 type = FilterType.ANNOTATION, classes = Configuration.class)
 )

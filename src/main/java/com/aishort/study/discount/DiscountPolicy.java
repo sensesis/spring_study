@@ -1,6 +1,6 @@
 package com.aishort.study.discount;
 
-import member.Member;
+import com.aishort.study.member.Member;
 
 public interface DiscountPolicy {
 

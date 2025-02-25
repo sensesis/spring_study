@@ -1,9 +1,9 @@
 package com.aishort.study;
 
-import member.MemberRepository;
-import member.MemberService;
-import member.MemberServiceImpl;
-import member.MemoryMemberRepository;
+import com.aishort.study.member.MemberRepository;
+import com.aishort.study.member.MemberService;
+import com.aishort.study.member.MemberServiceImpl;
+import com.aishort.study.member.MemoryMemberRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,7 +1,7 @@
 package com.aishort.study.scan;
 
 import com.aishort.study.AutoAppConfig;
-import member.MemberService;
+import com.aishort.study.member.MemberService;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

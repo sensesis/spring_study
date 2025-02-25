@@ -1,8 +1,8 @@
 package com.aishort.study.discount;
 
 
-import member.Grade;
-import member.Member;
+import com.aishort.study.member.Grade;
+import com.aishort.study.member.Member;
 import org.springframework.stereotype.Component;
 
 @Component

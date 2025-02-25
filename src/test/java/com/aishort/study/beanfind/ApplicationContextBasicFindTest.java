@@ -1,9 +1,8 @@
 package com.aishort.study.beanfind;
 
 import com.aishort.study.AppConfig;
-import member.MemberService;
-import member.MemberServiceImpl;
-import org.junit.jupiter.api.Assertions;
+import com.aishort.study.member.MemberService;
+import com.aishort.study.member.MemberServiceImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

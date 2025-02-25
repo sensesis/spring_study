@@ -1,8 +1,7 @@
 package com.aishort.study.beanfind;
 
-import com.aishort.study.AppConfig;
-import member.MemberRepository;
-import member.MemoryMemberRepository;
+import com.aishort.study.member.MemberRepository;
+import com.aishort.study.member.MemoryMemberRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;

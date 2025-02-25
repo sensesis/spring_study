@@ -1,8 +1,7 @@
 package com.aishort.study.singleton;
 
 import com.aishort.study.AppConfig;
-import member.MemberService;
-import org.junit.jupiter.api.Assertions;
+import com.aishort.study.member.MemberService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
