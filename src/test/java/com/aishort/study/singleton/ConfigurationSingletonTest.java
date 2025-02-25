@@ -4,6 +4,7 @@ import com.aishort.study.AppConfig;
 import member.MemberRepository;
 import member.MemberServiceImpl;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -12,7 +13,7 @@ public class ConfigurationSingletonTest {
 
     @Test
     void configurationTest() {
-        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
         MemberServiceImpl memberService = ac.getBean("memberService", MemberServiceImpl.class);
 
@@ -24,5 +25,13 @@ public class ConfigurationSingletonTest {
 
         assertThat(memberService.getMemberRepository()).isSameAs(memberRepository);
         //assertThat(memberRepository).isSameAs(memberService);
+    }
+
+    @Test
+    void configurationDeep() {
+        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+        AppConfig bean = ac.getBean(AppConfig.class);
+
+        System.out.println("been = " + bean.getClass());
     }
 }
